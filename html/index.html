@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>screenRecorder</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <script defer src="../js/render.js"></script>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'sha256-QyXPwYzqyCx113yUdHapYIY6P1NpRUVvt+MwpmyIMjY=';">
+  </head>
+  <body class="content">
+    <h1>screenRecord deez nuts</h1>
+
+    <video></video>
+
+    <button id="startButton" class="button is-primary">Start</button>
+    <button id="stopButton" class="button is-warning">Stop</button>
+
+    <hr />
+
+    <button id="videoSelect" class="button is-text">
+      Choose a Video Source
+    </button>
+
+    <script>
+        window.onload = function() {
+            var link = document.createElement('link');
+            link.href = '../node_modules/bulma/css/bulma.min.css';
+            link.rel = 'stylesheet';
+            document.head.appendChild(link); // This line appends the link to the head
+        };
+    </script>
+
+  </body>
+</html>

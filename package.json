@@ -1,0 +1,19 @@
+{
+  "name": "screenrecorder",
+  "version": "1.0.0",
+  "main": "js/main.js",
+  "devDependencies": {
+    "electron": "^31.1.0"
+  },
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bulma": "^1.0.1",
+    "electronmon": "^2.0.3",
+    "squirrel": "^1.0.0"
+  }
+}
